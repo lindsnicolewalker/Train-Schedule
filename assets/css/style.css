@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+
+ }
+
+#train-name-input,
+#train-destination-input,
+#first-train-input, 
+#train-frequency-input  {
+    background-color:transparent; 
+    color: white ; 
+
+}
+
+body, html{
+    margin: 0;
+    background-color:black; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+
+}
+
+#myVideo {
+    position:fixed; 
+    height: auto;
+    width: 100vw;
+    top:0;  
+    left:0;  
+    right:0;  
+    bottom:0;
+
+}
+
+.jumbotron {
+    position: initial;
+    top: 0;
+    background: rgba(0,0,0,.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: inherit 1; 
+    text-align: center; 
+    border-style: dashed; 
+
+}
+
+#submit-button,
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border:1px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-style: solid; 
+
+}
+
+#submit-button,
+#myBtn:hover {
+    background: rgba(0,0,0,.5);
+    color: white;
+
+}
+
+#input-form,
+#input-data,
+.card-header, 
+.card-body, 
+.form-group {
+    background-color:transparent;
+    color: white;
+
+}
+
+#table1{
+    position: relative;
+    z-index: inherit 1;
+    width:100%;
+    /* float: left; 
+    margin-left: 10px; */
+
+}
+
+#table2 {
+    /* float: right;  */
+    position: relative; 
+    width: 100%;
+    /* z-index: inherit 1;
+    margin-right:15px; */
+    margin-top: 50px; 
+
+}
+
+.card-body, 
+.card-header {
+    border-style: dashed; 
+    float: center; 
+    background: rgba(0,0,0,.5);
+
+}
+
+.card-header{
+    font-size:35px; 
+    text-align: center; 
+
+}
+
+/* .row {
+    display: inline; 
+
+} */
